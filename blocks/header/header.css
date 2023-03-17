@@ -1,0 +1,11 @@
+.header {
+  background: #2A2C2F;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width : 320px) {
+  .header {
+    padding: 16px 16px 8px;  }
+}
