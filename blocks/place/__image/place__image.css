@@ -1,11 +1,12 @@
-.lead__image {
+.place__image {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
 @media (max-width : 320px) {
-  .lead__image {
+  .place__image {
+    object-fit: cover;
     width: 100%;
   }
 }

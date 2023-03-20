@@ -1,0 +1,11 @@
+.place__paragraphs {
+  margin: 0;
+  padding: 0;
+  display: grid;
+}
+
+@media (max-width : 320px) {
+  .place__paragraphs {
+  row-gap: 25px;
+  }
+}

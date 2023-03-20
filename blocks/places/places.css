@@ -1,0 +1,15 @@
+.places {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  color: #fff;
+}
+
+@media (max-width : 320px) {
+  .places {
+    padding: 0 0 64px;
+    row-gap: 50px; 
+  }
+}

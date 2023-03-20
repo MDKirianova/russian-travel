@@ -1,11 +1,12 @@
-.lead__image {
+.place {
   margin: 0;
   padding: 0;
   border: 0;
+  display: grid;
 }
 
 @media (max-width : 320px) {
-  .lead__image {
-    width: 100%;
+  .place {
+    row-gap: 31px; 
   }
 }
