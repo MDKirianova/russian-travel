@@ -1,13 +1,7 @@
 .intro__title {
-  margin: 0;
   padding: 0;
-}
-
-@media (max-width : 320px) {
-  .intro__title {
-    margin: 0 16px;
-    font-weight: 900;
-    font-size: 2em;
-    line-height: 1.09;
-  }
+  margin: 0 16px;
+  font-weight: 900;
+  font-size: 2em;
+  line-height: 1.09;
 }

@@ -1,15 +1,9 @@
 .intro__list {
-  margin: 0;
   padding: 0;
   text-decoration: none;
   list-style: none;
-}
-
-@media (max-width : 320px) {
-  .intro__list {
-    margin: 0 16px;
-    font-weight: 400;
-    font-size: 0.75em;
-    line-height: 1.5;
-  }
+  margin: 0 16px;
+  font-weight: 400;
+  font-size: 0.75em;
+  line-height: 1.5;
 }

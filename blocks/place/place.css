@@ -3,10 +3,5 @@
   padding: 0;
   border: 0;
   display: grid;
-}
-
-@media (max-width : 320px) {
-  .place {
-    row-gap: 31px; 
-  }
+  row-gap: 31px; 
 }

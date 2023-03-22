@@ -1,17 +1,11 @@
 .place__website__link {
   margin: 0;
   padding: 0;
-  bottom: 0;
   color: #fff;
-}
-
-@media (max-width : 320px) {
-  .place__website__link {
-    font-weight: 400;
-    font-size: 1.125em;
-    line-height: 1.22;
-    text-decoration: none;
-    display: table;
-    border-bottom: 1px solid #fff;
-  }
+  font-weight: 400;
+  font-size: 1.125em;
+  line-height: 1.22;
+  text-decoration: none;
+  display: table;
+  border-bottom: 1px solid #fff;
 }

@@ -1,9 +1,5 @@
 .header__logo {
   margin: 0;
   padding: 0;
-}
-
-@media (max-width : 320px) {
-  .header__logo {
-    max-width: 49%;  }
+  max-width: 49%;
 }
