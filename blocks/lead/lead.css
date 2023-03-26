@@ -3,3 +3,9 @@
   color: #fff;
   padding: 40px 0 64px;
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .lead {
+    padding: 40px 0 88px;
+  }
+}

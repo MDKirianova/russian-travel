@@ -5,3 +5,9 @@
   border: 0;
   row-gap: 26px;
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .place__paragraphs {
+    row-gap: 25px;
+  }
+}

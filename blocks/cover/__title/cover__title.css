@@ -3,6 +3,14 @@
   text-align: center;
   margin: 33px 16px 0;
   font-weight: 900;
-  font-size: 2em;
+  font-size: 32px;
   line-height: 1.09;
+}
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .cover__title {
+    margin: 115px 16px 0;
+    font-size: calc((100vw - 321px)/(786 - 321)*(72 - 32) + 33.6px);
+    line-height: 1.06;
+  }
 }

@@ -7,3 +7,9 @@
   list-style: none;
   align-self: center;
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .header__links {
+    padding:14px 0 0;
+  }
+}

@@ -1,8 +1,18 @@
 .lead__title {
+  max-height: 200px;
   padding: 0;
   text-align: center;
   margin: 0 16px;
   font-weight: 900;
-  font-size: 2.5em;
+  font-size: calc((100vw - 221px)/(321 - 221)*(40 - 24) + 24.16px);
   line-height: 1.1;
+}
+
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .lead__title {
+    margin: 0 24px;
+    font-size: calc((100vw - 321px)/(786 - 321)*(96 - 40) + 41.7px);
+    line-height: 1.04;
+  }
 }

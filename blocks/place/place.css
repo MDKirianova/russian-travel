@@ -5,3 +5,11 @@
   display: grid;
   row-gap: 31px; 
 }
+
+@media (min-width: 550px) and (max-width: 786px) {
+  .place {
+    row-gap: 48px;
+    column-gap: 28px;
+    grid-template-columns: 1fr minmax(min-content, 352px);
+  }
+}

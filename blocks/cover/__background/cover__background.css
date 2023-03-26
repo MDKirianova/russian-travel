@@ -29,3 +29,10 @@
 .cover__background:hover::before {
   opacity: 0.8;
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .cover__background {
+    min-height: 480px;
+    width: 100%;
+  }
+}

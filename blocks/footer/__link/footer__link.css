@@ -3,7 +3,15 @@
   padding: 0;
   color: #fff;
   text-decoration: none;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1;
   font-weight: 400;
+}
+
+@media (min-width: 691px) and (max-width: 786px) {
+  .footer__link {
+    font-size: calc((100vw - 321px)/(786 - 321)*(16 - 24) + 23.7px);
+    line-height: 1.12;
+    letter-spacing: 0.1px;  
+  }
 }

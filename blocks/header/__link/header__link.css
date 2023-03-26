@@ -3,7 +3,14 @@
   padding: 0;
   color: #fff;
   text-decoration: none;
-  font-size: 1.125rem;
+  font-size: 18px;
   line-height: 1.11;
   font-weight: 400;
+}
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .header__link {
+    font-size: calc((100vw - 321px)/(786 - 321)*(24 - 18) + 18px);
+    line-height: 1.17;
+  }
 }

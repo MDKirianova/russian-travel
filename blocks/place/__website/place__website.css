@@ -3,3 +3,10 @@
   padding: 0;
   border: 0;
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .place__website {
+    margin: 0;
+    align-self: end;
+  }
+}
