@@ -27,6 +27,6 @@
     justify-content: center;
     row-gap: 48px;
     column-gap: 40px;
-    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px) ;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px);
   }
 }
