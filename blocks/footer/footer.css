@@ -17,3 +17,11 @@
     min-height: max-content;
   }
 }
+
+@media screen and (min-width: 787px) {
+  .footer {
+    margin: 0 48px 24px;
+    flex-direction: row;
+    min-height: max-content;
+  }
+}

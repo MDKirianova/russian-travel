@@ -12,5 +12,15 @@
     margin: 0;
     max-width: 330px;
     font-size: calc((100vw - 321px)/(786 - 321)*(42 - 32) + 32.39px);
+    line-height: 1.1;
+  }
+}
+
+@media (min-width: 787px) and (max-width: 1024px) {
+  .place__title {
+    margin: 0;
+    max-width: 430px;
+    font-size: calc((100vw - 787px)/(1024 - 787)*(72 - 42) + 42px);
+    line-height: 1.06;
   }
 }

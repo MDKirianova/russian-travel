@@ -1,4 +1,4 @@
-.header__links {
+.header__lang-links {
   margin: 0;
   padding:7px 0 0;
   display: flex;
@@ -8,8 +8,8 @@
   align-self: center;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
-  .header__links {
+@media screen and (min-width: 321px) {
+  .header__lang-links {
     padding:14px 0 0;
   }
 }

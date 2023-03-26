@@ -9,3 +9,9 @@
     max-width: 55%;
   }
 }
+
+@media (min-width: 787px) and (max-width: 1024px) {
+  .header__logo {
+    max-width: 100%;
+  }
+}

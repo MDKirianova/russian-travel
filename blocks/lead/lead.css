@@ -9,3 +9,11 @@
     padding: 40px 0 88px;
   }
 }
+
+
+@media (min-width: 787px) and (max-width: 1024px) {
+ .lead {
+  padding: 40px 0 92px;
+  margin: 0 48px;
+ }
+}

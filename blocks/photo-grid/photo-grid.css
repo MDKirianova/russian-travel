@@ -13,3 +13,13 @@
     grid-template-columns: repeat(2, 1fr);
   }
 }
+
+@media (min-width: 787px) and (max-width: 1024px) {
+  .photo-grid {
+    margin: 0 48px;
+    padding: 0 0 92px;
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+

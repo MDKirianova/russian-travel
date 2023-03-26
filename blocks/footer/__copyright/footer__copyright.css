@@ -5,9 +5,10 @@
 }
 
 
-@media (min-width: 691px) and (max-width: 786px) {
+@media screen and (min-width: 691px) {
   .footer__copyright {
     line-height: 1.14;
-    padding: 2px 0 0;
+    align-self: center;
+    padding: 0 0 0 18px;
   }
 }

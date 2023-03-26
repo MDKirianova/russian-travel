@@ -36,3 +36,10 @@
     width: 100%;
   }
 }
+
+@media (min-width: 321px) and (max-width: 786px) {
+  .cover__background {
+    min-height: 640px;
+    width: 100%;
+  }
+}

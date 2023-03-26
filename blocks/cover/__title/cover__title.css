@@ -14,3 +14,12 @@
     line-height: 1.06;
   }
 }
+
+@media (min-width: 787px) and  (max-width: 1024px)  {
+  .cover__title {
+    margin: 195px 48px 0;
+    font-size: 72px;
+    line-height: 1.07;
+  }
+  
+}

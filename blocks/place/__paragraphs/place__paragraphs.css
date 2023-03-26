@@ -1,7 +1,8 @@
 .place__paragraphs {
   margin: 0;
   padding: 0;
-  display: grid;
+  display: flex;
+  flex-direction: column;
   border: 0;
   row-gap: 26px;
 }
@@ -9,5 +10,12 @@
 @media (min-width: 321px) and (max-width: 786px) {
   .place__paragraphs {
     row-gap: 25px;
+  }
+}
+
+@media (min-width: 787px) and (max-width: 1024px) {
+  .place__paragraphs {
+    row-gap: 24px;
+    align-items: start;
   }
 }
