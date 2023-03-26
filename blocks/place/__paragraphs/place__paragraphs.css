@@ -13,9 +13,10 @@
   }
 }
 
-@media (min-width: 787px) and (max-width: 1024px) {
+@media screen and (min-width: 787px) {
   .place__paragraphs {
     row-gap: 24px;
     align-items: start;
   }
 }
+

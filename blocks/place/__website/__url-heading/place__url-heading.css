@@ -9,3 +9,16 @@
   letter-spacing: 2px;
   text-transform: uppercase;
 }
+
+@media screen and (min-width: 878px) {
+  .place__url-heading {
+    line-height: 1.7;
+    margin: 0;
+  }  
+}
+
+@media screen and (min-width: 1025px) {
+  .place__url-heading {
+    line-height: 2.1;
+  }  
+}

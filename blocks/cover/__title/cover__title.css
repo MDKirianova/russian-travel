@@ -15,11 +15,17 @@
   }
 }
 
-@media (min-width: 787px) and  (max-width: 1024px)  {
+@media screen and  (min-width: 787px) {
   .cover__title {
     margin: 195px 48px 0;
     font-size: 72px;
     line-height: 1.07;
   }
-  
+}
+
+@media screen and (min-width: 1025px) {
+  .cover__title {
+    margin:243px auto 0;
+    max-width: 560px;
+  }
 }

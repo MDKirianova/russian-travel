@@ -23,3 +23,11 @@
   }
 }
 
+@media screen and (min-width: 1025px) {
+  .photo-grid {
+  margin: 0 48px;
+  padding: 0 0 92px;
+  gap: 14px;
+  grid-template-columns: repeat(4, 1fr);
+  }
+}

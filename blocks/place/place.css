@@ -21,3 +21,12 @@
     grid-template-columns: 1fr minmax(min-content, 456px);
   }
 }
+
+@media screen and (min-width: 1025px) {
+  .place {
+    justify-content: center;
+    row-gap: 48px;
+    column-gap: 40px;
+    grid-template-columns: minmax(min-content, 460px) minmax(min-content, 484px) ;
+  }
+}

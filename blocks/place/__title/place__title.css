@@ -16,7 +16,7 @@
   }
 }
 
-@media (min-width: 787px) and (max-width: 1024px) {
+@media screen and (min-width: 787px) {
   .place__title {
     margin: 0;
     max-width: 430px;
@@ -24,3 +24,10 @@
     line-height: 1.06;
   }
 }
+  
+  @media screen and (min-width: 1025px) {
+    .place__title {
+    font-size: 72px;
+    max-width: fit-content;
+    }
+  }
