@@ -7,20 +7,20 @@
   line-height: 1.09;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .place__title {
     margin: 0;
     max-width: 330px;
-    font-size: calc((100vw - 321px)/(786 - 321)*(42 - 32) + 32.39px);
+    font-size: calc((100vw - 321px)/(768 - 321)*(42 - 32) + 32px);
     line-height: 1.1;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .place__title {
     margin: 0;
     max-width: 430px;
-    font-size: calc((100vw - 787px)/(1024 - 787)*(72 - 42) + 42px);
+    font-size: calc((100vw - 769px)/(1024 - 769)*(72 - 42) + 42px);
     line-height: 1.06;
   }
 }

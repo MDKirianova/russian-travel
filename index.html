@@ -11,10 +11,10 @@
 <body class="root">
   <header class="header">
     <img src="./images/header__logo.svg" alt="Россия" class="header__logo">
-    <nav class="header__lang-links">
-      <a href="#" class="header__lang-link header__lang-link_active link">Ru</a>
-      <a href="#" class="header__lang-link link">En</a>
-    </nav>
+    <ul class="header__lang-links">
+      <li><a href="#" class="header__lang-link header__lang-link_active link">Ru</a></li>
+      <li><a href="#" class="header__lang-link link">En</a></li>
+    </ul>
   </header>
   <main class="content">
     <section class="lead">
@@ -49,25 +49,27 @@
         </li>
       </ul>
     </section>
-    <section class="photo-grid">
-      <img src="./images/photo-grid__item-0.png" alt="Фото 1" class="photo-grid__item">
-      <img src="./images/photo-grid__item-1.png" alt="Фото 2" class="photo-grid__item">
-      <img src="./images/photo-grid__item-2.png" alt="Фото 3" class="photo-grid__item">
-      <img src="./images/photo-grid__item-3.png" alt="Фото 4" class="photo-grid__item">
-      <img src="./images/photo-grid__item-4.png" alt="Фото 5" class="photo-grid__item">
-      <img src="./images/photo-grid__item-5.png" alt="Фото 6" class="photo-grid__item">
-      <img src="./images/photo-grid__item-6.png" alt="Фото 7" class="photo-grid__item">
-      <img src="./images/photo-grid__item-7.png" alt="Фото 8" class="photo-grid__item">
-      <img src="./images/photo-grid__item-8.png" alt="Фото 9" class="photo-grid__item">
-      <img src="./images/photo-grid__item-9.png" alt="Фото 10" class="photo-grid__item">
-      <img src="./images/photo-grid__item-10.png" alt="Фото 11" class="photo-grid__item">
-      <img src="./images/photo-grid__item-11.png" alt="Фото 12" class="photo-grid__item">
+    <section class="photo-grid" aria-label="Галерея пейзажей нашей родины">
+      <ul class="photo-grid photo-grid__list">
+        <li><img src="./images/photo-grid__item-0.png" alt="Вид из окна плацкартного вагона" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-1.png" alt="Снежные вершины в облаках" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-2.png" alt="Лис на стоге сена на рассвете" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-3.png" alt="Туман на еловых холмах" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-4.png" alt="Колесо от автомобиля буханка на льду Байкала" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-5.png" alt="Морской пляж с горами на горизонте" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-6.png" alt="Горные вершины в туманный день" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-7.png" alt="Дорожный знак на фоне ограничителей" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-8.png" alt="Опять горы в тумане" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-9.png" alt="Красивая гора и тайга вдалеке" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-10.png" alt="Замерзшее побережье и горы в снегу" class="photo-grid__item"></li>
+        <li><img src="./images/photo-grid__item-11.png" alt="Горы в тумане снова" class="photo-grid__item"></li>
+      </ul>
     </section>
-    <section class="places">
+    <section class="places" aria-label="Основные достопримечательности маршрута">
       <article class="place">
-        <h1 class="place__title">Куршская коса</h1>
+        <h2 class="place__title">Куршская коса</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a href="http://park-kosa.ru" target="_blank" class="place__link link">park-kosa.ru</a>
         </div>
         <img src="./images/places__image-0.png" alt="Куршская коса" class="place__image">
@@ -82,9 +84,9 @@
         </div>
       </article>
       <article class="place">
-        <h1 class="place__title">Кольский</h1>
+        <h2 class="place__title">Кольский</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" target="_blank"
             class="place__link link">National Geographic</a>
         </div>
@@ -99,9 +101,9 @@
         </div>
       </article>
       <article class="place">
-        <h1 class="place__title">Алтай</h1>
+        <h2 class="place__title">Алтай</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a href="https://www.youtube.com/watch?v=7ZEsoV7kWAQ" target="_blank" class="place__link link">YouTube</a>
         </div>
         <img src="./images/places__image-2.png" alt="Алтай" class="place__image">
@@ -115,9 +117,9 @@
         </div>
       </article>
       <article class="place">
-        <h1 class="place__title">Зимний Байкал</h1>
+        <h2 class="place__title">Зимний Байкал</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a href="https://vk.com/baikalmile" target="_blank" class="place__link link">https://vk.com/baikalmile</a>
         </div>
         <img src="./images/places__image-3.png" alt="Зимний Байкал" class="place__image">
@@ -131,9 +133,9 @@
         </div>
       </article>
       <article class="place">
-        <h1 class="place__title">Карелия</h1>
+        <h2 class="place__title">Карелия</h2>
         <div class="place__website">
-          <p class="place__url-heading">URL</p>
+          <p class="place__url-heading">url</p>
           <a href="http://vodlozero.ru" target="_blank" class="place__link link">http://vodlozero.ru/</a>
         </div>
         <img src="./images/places__image-4.png" alt="Карелия" class="place__image">
@@ -147,7 +149,7 @@
     </section>
     <section class="cover">
         <a href="https://stampsy.com/na-elektrichkakh-do-baikala" target="_blank" class="cover__background">
-          <h1 class="cover__title">До Байкала «на собаках»</h1>
+          <h2 class="cover__title">До Байкала «на собаках»</h2>
           <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала
             на электричках.</p>
         </a>

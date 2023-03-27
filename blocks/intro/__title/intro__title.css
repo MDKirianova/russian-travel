@@ -6,14 +6,14 @@
   line-height: 1.09;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width:768px) {
   .intro__title {
-    font-size: calc((100vw - 321px)/(786 - 321)*(54 - 32) + 32.86px);
+    font-size: calc((100vw - 321px)/(768 - 321)*(54 - 32) + 32px);
     line-height: 1.07;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .intro__title {
     font-size: 54px;
     line-height: 1.07;

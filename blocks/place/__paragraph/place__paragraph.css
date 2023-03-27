@@ -7,13 +7,13 @@
   line-height: 1.63;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .place__paragraph {
     margin: 0;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .place__paragraph {
     margin: 0;
     font-size: 1.125em;

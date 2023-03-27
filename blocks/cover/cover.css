@@ -8,13 +8,13 @@
   color: #fff;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .cover {
-    padding: 0 0 88px;
+    padding: 0 0 89px;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .cover {
     padding: 0 0 92px;
   }

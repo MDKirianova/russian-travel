@@ -10,7 +10,7 @@
   
 }
 
-@media (min-width: 691px) and (max-width: 786px) {
+@media (min-width: 691px) and (max-width: 768px) {
   .footer {
     margin: 0 24px 24px;
     flex-direction: row;
@@ -18,7 +18,7 @@
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .footer {
     margin: 0 48px 24px;
     flex-direction: row;

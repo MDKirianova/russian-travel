@@ -10,13 +10,13 @@
 
 @media screen and (min-width: 691px) {
   .footer__link {
-    font-size: calc((100vw - 321px)/(786 - 321)*(16 - 24) + 23.7px);
+    font-size: calc((100vw - 321px)/(768 - 321)*(16 - 24) + 24px);
     line-height: 1.12;
     letter-spacing: 0.1px;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .footer__link {
     font-size: 16px;
   }

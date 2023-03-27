@@ -9,15 +9,15 @@
 }
 
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width:768px) {
   .lead__title {
     margin: 0 24px;
-    font-size: calc((100vw - 321px)/(786 - 321)*(96 - 40) + 41.7px);
+    font-size: calc((100vw - 321px)/(768 - 321)*(96 - 40) + 40px);
     line-height: 1.04;
   }
 }
 
-@media screen and (min-width: 787px) {
+@media screen and (min-width: 769px) {
   .lead__title {
     margin: 0 auto;
     max-width: 720px;

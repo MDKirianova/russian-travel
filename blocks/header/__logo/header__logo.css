@@ -4,13 +4,13 @@
   max-width: 49%;
 }
 
-@media (min-width: 321px) and (max-width: 786px) {
+@media (min-width: 321px) and (max-width: 768px) {
   .header__logo {
     max-width: 55%;
   }
 }
 
-@media (min-width: 787px) and (max-width: 1024px) {
+@media (min-width: 769px) and (max-width: 1024px) {
   .header__logo {
     max-width: 100%;
   }
