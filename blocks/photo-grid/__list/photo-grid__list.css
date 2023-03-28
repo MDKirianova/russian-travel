@@ -4,5 +4,27 @@
   padding: 0;
   border: 0;
   display: grid;
+  row-gap: 12px;
+}
+
+@media (min-width: 321px) and (max-width: 768px) {
+  .photo-grid__list {
+    gap: 16px;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .photo-grid__list {
+    gap: 14px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .photo-grid__list {
+  gap: 16px;
+  grid-template-columns: repeat(4, 1fr);
+  }
 }
 
